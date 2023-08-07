@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="blue_text">
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="blue_alpha_text" parent="blue_text">
+        <item name="android:textColor">@color/purple_700_alpha</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="bold_blue_head_text" parent="blue_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="onboarding_head">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SearchTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/purple_500</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/searchBarCornerRadius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/searchBarCornerRadius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/searchBarCornerRadius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/searchBarCornerRadius</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="subreddit_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="post_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="author_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/subreddits_tab_nav_graph">
+
+    <include app:graph="@navigation/subreddits_tab_nav_graph" />
+
+    <include app:graph="@navigation/favourite_tab_nav_graph" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="nferno1.cfreddit.presentation.screens.profile.ProfileFragment"
+        android:label="@string/user_info"
+        android:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/from_profile_to_onboarding"
+            app:destination="@+id/main_navigation_graph" />
+    </fragment>
+
+</navigation>

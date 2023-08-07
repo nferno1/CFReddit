@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/subreddits_tab_nav_graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_text"
+        android:title="@string/subreddits">
+    </item>
+
+    <item
+        android:id="@+id/favourite_tab_nav_graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/favorite">
+    </item>
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profile">
+    </item>
+</menu>

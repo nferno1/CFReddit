@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CFReddit</string>
+    <string name="welcom" translatable="false">Client for Reddit</string>
+    <string name="subreddits">Subreddits</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="skip">Skip</string>
+    <string name="onboarding_title_1">Welcome to CFReddit</string>
+    <string name="onboarding_title_2" translatable="false">SubReddits</string>
+    <string name="onboarding_title_3">Share and Save</string>
+    <string name="onboarding_text_1">Here are communities of all kinds of interests</string>
+    <string name="onboarding_text_2">You can find new subs by interests and see the subs you subscribe to</string>
+    <string name="onboarding_text_3">Favorites tab stores bookmarks with comments and subs. In your profile you will find information about yourself.</string>
+    <string name="auth_text">Find like-minded people with Reddit</string>
+    <string name="enter">Enter</string>
+    <string name="authcode_receiving_error">Auth code receiving error</string>
+    <string name="search">Search</string>
+    <string name="subscribed">Subscribed: %1$s</string>
+    <string name="loading_error">Loading error. Check your internet connection and try again</string>
+    <string name="new_title">New</string>
+    <string name="popular_title">Popular</string>
+    <string name="vote_up">vote Up</string>
+    <string name="vote_down">vote Down</string>
+    <string name="open_comments">open comments</string>
+    <string name="share">share</string>
+    <string name="check_connection">Please check your internet connection</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+    <string name="posts">Posts</string>
+    <string name="created">Created: %1$s</string>
+    <string name="karma">Karma: %1$s</string>
+    <string name="comments">Comments</string>
+    <string name="user_info">About user</string>
+    <string name="start">Start</string>
+    <string name="welcome">Welcome!</string>
+    <string name="auth">Authorization</string>
+    <string name="log_out">LogOut</string>
+    <string name="back">back</string>
+    <string name="we_found_nothing">We found nothing. Go back and try again.</string>
+</resources>

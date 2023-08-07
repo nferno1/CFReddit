@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CFReddit</string>
+    <string name="subreddits">Сабреддиты</string>
+    <string name="favorite">Избранное</string>
+    <string name="profile">Профиль</string>
+    <string name="skip">Пропустить</string>
+    <string name="onboarding_text_1">Здесь собраны сообщества по всевозможным интересам</string>
+    <string name="onboarding_title_1">Добро пожаловать в CFReddit</string>
+    <string name="onboarding_title_3">Делись и сохраняй</string>
+    <string name="onboarding_text_2">Ты можешь найти новые сабы по интересам и посмотреть сабы, на которые подписан</string>
+    <string name="onboarding_text_3">Вкладка избранное хранит закладки с комментариями и сабами. В профиле ты найдёшь информацию о себе.</string>
+    <string name="auth_text">Найди единомышленников с Reddit</string>
+    <string name="enter">Войти</string>
+    <string name="authcode_receiving_error">Ошибка получения кода авторизации</string>
+    <string name="search">Поиск</string>
+    <string name="subscribed">Подписано: %1$s</string>
+    <string name="loading_error">Ошибка загрузки. Проверьте соединение и попробуйте снова.</string>
+    <string name="new_title">Новые</string>
+    <string name="popular_title">Популярные</string>
+    <string name="vote_down">Проголосавть потив</string>
+    <string name="vote_up">Проголосовать за</string>
+    <string name="open_comments">Открыть комментарии</string>
+    <string name="share">Поделиться</string>
+    <string name="check_connection">Проверьте соединение с интернетом</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+    <string name="join">Присоединиться</string>
+    <string name="leave">Покинуть</string>
+    <string name="posts">Посты</string>
+    <string name="created">Создан: %1$s</string>
+    <string name="karma">Карма: %1$s</string>
+    <string name="comments">Комментарии</string>
+    <string name="user_info">О пользователе</string>
+    <string name="start">Старт</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="auth">Авторизация</string>
+    <string name="log_out">Выйти</string>
+    <string name="back">Назад</string>
+    <string name="we_found_nothing">К сожалению, по Вашему запросу ничего не найдено. Вернитесь назад и попробуйте снова.</string>
+</resources>

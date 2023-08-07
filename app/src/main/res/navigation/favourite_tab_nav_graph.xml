@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favourite_tab_nav_graph"
+    app:startDestination="@id/favorites">
+
+    <fragment
+        android:id="@+id/favorites"
+        android:name="nferno1.cfreddit.presentation.screens.favourite.FavoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/from_subreddits_to_posts"
+            app:destination="@id/subreddit_posts" />
+        <action
+            android:id="@+id/from_posts_to_comments"
+            app:destination="@id/post_comments" />
+        <action
+            android:id="@+id/from_posts_to_user_info"
+            app:destination="@id/user_info" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/subreddit_posts"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.PostsFragment"
+        android:label="@string/posts"
+        tools:layout="@layout/fragment_posts">
+        <action
+            android:id="@+id/from_posts_to_comments"
+            app:destination="@+id/post_comments" />
+        <action
+            android:id="@+id/from_posts_to_user_info"
+            app:destination="@id/user_info" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/post_comments"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.CommentsFragment"
+        android:label="@string/comments"
+        tools:layout="@layout/fragment_comments">
+        <action
+            android:id="@+id/from_comments_to_user_info"
+            app:destination="@id/user_info" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_info"
+        android:name="nferno1.cfreddit.presentation.screens.profile.UserInfoFragment"
+        android:label="@string/user_info"
+        tools:layout="@layout/fragment_user_info" />
+
+</navigation>

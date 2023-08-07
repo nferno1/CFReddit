@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/subreddits_tab_nav_graph"
+    app:startDestination="@id/fragment_subreddits">
+
+    <fragment
+        android:id="@+id/fragment_subreddits"
+        android:label="@string/subreddits"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.SubredditsFragment"
+        android:layout="@layout/fragment_subreddits">
+        <action
+            android:id="@+id/from_subreddits_to_posts"
+            app:destination="@+id/subreddit_posts" />
+        <action
+            android:id="@+id/from_subreddits_to_search"
+            app:destination="@id/search_fragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/subreddit_posts"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.PostsFragment"
+        android:label="@string/posts"
+        android:layout="@layout/fragment_posts">
+        <action
+            android:id="@+id/from_posts_to_comments"
+            app:destination="@+id/post_comments" />
+        <action
+            android:id="@+id/from_posts_to_user_info"
+            app:destination="@id/user_info" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/post_comments"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.CommentsFragment"
+        android:label="@string/comments"
+        tools:layout="@layout/fragment_comments">
+        <action
+            android:id="@+id/from_comments_to_user_info"
+            app:destination="@id/user_info" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_info"
+        android:name="nferno1.cfreddit.presentation.screens.profile.UserInfoFragment"
+        android:label="@string/user_info"
+        tools:layout="@layout/fragment_user_info" />
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="nferno1.cfreddit.presentation.screens.subreddits.SearchSubredditFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_subreddits_generic">
+        <action
+            android:id="@+id/from_subreddits_to_posts"
+            app:destination="@id/subreddit_posts"/>
+    </fragment>
+
+</navigation>
